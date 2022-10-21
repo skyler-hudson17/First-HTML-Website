@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DogPhotoapp</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Dog Photo App</h1>
+                <img src="/Dog.png" alt="This is a dog">
+            </header>
+
+            <section>
+                <h3>Things Dogs Love: </h3>
+                <ul>
+                    <li>Affection</li>
+                    <li>Playing</li>
+                    <li>Sleeping</li>
+                    <li>Food</li>
+                    <li>Water</li>
+                    <li>Other People</li>
+                </ul>
+
+                <h3>Things Dogs Hate: </h3>
+                <ol>
+                    <li>Being left alone</li>
+                    <li>Cats</li>
+                    <li>People yelling at them</li>
+                    <li>Abusers</li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Information about Your Dog: </h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Breed</legend>
+                        <input type="checkbox" value="dog-type" id="dog-type" required>
+                        <label for="dog-type">Golden Retrevier</label>
+        
+                        <input type="checkbox" value="dog-type" id="dog-type" required>
+                        <label for="dog-type">German Shepered</label>
+
+                        <input type="checkbox" value="dog-type" id="dog-type" required>
+                        <label for="dog-type">Bulldog</label>
+
+                        <input type="checkbox" value="dog-type" id="dog-type" required>
+                        <label for="dog-type">French bulldog</label>
+
+                        <input type="checkbox" value="dog-type" id="dog-type" required>
+                        <label for="dog-type">Huskey</label>
+                        
+                        <input type="checkbox" value="dog-type" id="dog-type" required>
+                        <label for="dog-type">Poodle</label>
+
+                        <label for="other">Other: </label>
+                        <input type="text" id="other" placeholder="Hound" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Numbers: </legend>
+                        <label for="age">Age: (In Months)</label>
+                        <input type="number" id="age" value="1" required> 
+
+                        <label for="height">Height: (In inches)</label>
+                        <input type="number" value="1" id="height" required>
+
+                        <label for="weight">Weight: (In Pounds)</label>
+                        <input type="number" value="1" id="weight" required>
+
+                        <label for="date-of-birth">DOB: </label>
+                        <input type="date" id="date-of-birth" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Indoor or Outdoor Dog?</legend>
+                        <label for="indoor">Indoor</label>
+                        <input type="radio" id="outdoor" name="indoor-outdoor" required>
+
+                        <label for="outdoor">Outdoor</label>
+                        <input type="radio" id="outdoor" name="indoor-outdoor" required>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &#169;, Skyler, Oct. 2022</p>
+        </footer>
+    </body>
+</html>
